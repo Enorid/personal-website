@@ -1,0 +1,18 @@
+* {
+    background-color: #DDDDDD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    display: inline-block;
+}
+
+#title {
+    margin-left: 32px;
+}
+
+.projects {
+    text-align: right;
+    float: right;
+    margin-right: 120px;
+}
