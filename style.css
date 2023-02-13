@@ -3,16 +3,21 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    display: inline-block;
+#top {
+    display: flex;
 }
 
-#title {
-    margin-left: 32px;
+.title-projects {
+    flex: 1 1 auto;
 }
 
-.projects {
-    text-align: right;
-    float: right;
-    margin-right: 120px;
+#top > .title {
+    flex: 3 1 auto;
+}
+
+#top > .projects {
+    background-color: black;
+    padding: 20px;
+    color: #DDDDDD;
+    text-align: center;
 }
